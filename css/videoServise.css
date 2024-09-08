@@ -227,3 +227,31 @@ main h1{
     max-width: 865px;
     margin: 0 auto;
 }
+
+@media(max-width: 620px){
+    .main-wrapper{
+        padding: 0 20px;
+    }
+    .title-1{
+        font-size: 40px;
+    }
+    .img img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .btn{
+        width: 100%;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+    .social{
+        column-gap: 20px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
